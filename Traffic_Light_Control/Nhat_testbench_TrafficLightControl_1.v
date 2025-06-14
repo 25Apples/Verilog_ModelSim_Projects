@@ -1,0 +1,23 @@
+`timescale 1s /1s
+module Nhat_testbench_TrafficLightControl_1();
+
+reg clk, rs;
+wire [2:0] out;
+wire RED, GREEN, YELLOW;
+
+TrafficLightControl_1 uut (
+.clk(clk), .rs(rs),
+.out(out), .RED(RED), .GREEN(GREEN), .YELLOW(YELLOW)
+);
+
+initial begin
+    clk = 0;
+    rs = 1;
+    #2;
+    rs = 0;
+end
+
+always forever #0.5 clk = ~clk;
+
+endmodule
+

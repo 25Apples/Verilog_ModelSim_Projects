@@ -1,0 +1,15 @@
+{E:/File ModelSim/Traffic_Light_Control/TrafficLightControl.v} {1 {vlog -work work -stats=none {E:/File ModelSim/Traffic_Light_Control/TrafficLightControl.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module TrafficLightControl_1
+
+Top level modules:
+	TrafficLightControl_1
+
+} {} {}} {E:/File ModelSim/Traffic_Light_Control/Nhat_testbench_TrafficLightControl_1.v} {1 {vlog -work work -stats=none {E:/File ModelSim/Traffic_Light_Control/Nhat_testbench_TrafficLightControl_1.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Nhat_testbench_TrafficLightControl_1
+
+Top level modules:
+	Nhat_testbench_TrafficLightControl_1
+
+} {} {}}

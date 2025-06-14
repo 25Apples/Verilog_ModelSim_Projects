@@ -1,0 +1,75 @@
+module TrafficLightControl_1 (
+input wire clk, rs,
+output reg [2:0] out,
+output reg RED, GREEN, YELLOW
+);
+
+parameter Time_RED    = 20;
+parameter Time_GREEN  = 15;
+parameter Time_YELLOW = 5;
+
+parameter [1:0] S1 = 2'b00, S2 = 2'b01, S3 = 2'b10;
+reg [1:0] Current_State, Next_State;
+integer t, t_next;
+
+always @(*) begin
+	RED	= out[2];
+	GREEN	= out[1];
+	YELLOW	= out[0];
+end
+
+always @(posedge clk) begin
+	if (rs)
+		t <= Time_RED;
+	else
+		t <= t_next;
+end
+
+always @(Current_State, t) begin
+	case (Current_State)
+	S1: if (t == 0) begin
+			Next_State = S2;
+			t_next = Time_GREEN;
+		end else begin
+			Next_State = S1;
+			t_next = t - 1;
+		end
+	S2: if (t == 0) begin
+			Next_State = S3;
+			t_next = Time_YELLOW;
+		end else begin
+			Next_State = S2;
+			t_next = t - 1;
+		end
+	S3: if (t == 0) begin
+			Next_State = S1;
+			t_next = Time_RED;
+		end else begin
+			Next_State = S3;
+			t_next = t - 1;
+		end
+	default: begin
+			Next_State = S1;
+			t_next = Time_RED;
+		end
+	endcase
+end
+
+always @(posedge clk) begin
+	if (rs)
+		Current_State <= S1;
+	else
+		Current_State <= Next_State;
+end
+
+always @(Current_State) begin
+	case (Current_State)
+		S1: out = 3'b100;
+		S2: out = 3'b010;
+		S3: out = 3'b001;
+		default: out = 3'b000;
+	endcase
+end
+
+endmodule
+
