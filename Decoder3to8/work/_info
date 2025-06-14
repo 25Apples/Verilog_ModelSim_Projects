@@ -1,0 +1,54 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/18.1/modelsim_ase/win32aloem
+vDecoder3to8
+Z0 !s110 1746046832
+!i10b 1
+!s100 T<IV7[Y0e9^hNhSc2JDEC2
+IOkVN1IMEFIH2C:5MgYba:0
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dE:/File ModelSim/Decoder3to8
+w1746046826
+8E:/File ModelSim/Decoder3to8/Decode3to8.v
+FE:/File ModelSim/Decoder3to8/Decode3to8.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1746046831.000000
+!s107 E:/File ModelSim/Decoder3to8/Decode3to8.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/File ModelSim/Decoder3to8/Decode3to8.v|
+!i113 1
+Z4 o-work work
+Z5 tCvgOpt 0
+n@decoder3to8
+vNhat_testbench_Decoder3t08
+R0
+!i10b 1
+!s100 UE3d5f@cE^o9haGzeC;AI0
+Ib_zOg]AHgDX8bI2BYjDk>2
+R1
+R2
+w1742585672
+8E:/File ModelSim/Decoder3to8/Nhat_testbench_Decoder3to8.v
+FE:/File ModelSim/Decoder3to8/Nhat_testbench_Decoder3to8.v
+L0 2
+R3
+r1
+!s85 0
+31
+!s108 1746046832.000000
+!s107 E:/File ModelSim/Decoder3to8/Nhat_testbench_Decoder3to8.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/File ModelSim/Decoder3to8/Nhat_testbench_Decoder3to8.v|
+!i113 1
+R4
+R5
+n@nhat_testbench_@decoder3t08

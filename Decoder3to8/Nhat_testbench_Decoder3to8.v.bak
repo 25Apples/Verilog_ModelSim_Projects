@@ -1,0 +1,17 @@
+`timescale 1ns/1ps
+module Nhat_testbench_Decoder3t08();
+reg EN;
+reg [2:0] in;
+wire [7:0] out;
+
+Decoder3to8 uut(.in(in), .out(out), .EN(EN));
+
+initial begin
+EN = 1;
+in = 3'b000;
+end
+
+always forever #50 in = in + 1;
+always forever #400 EN = ~EN;
+
+endmodule
