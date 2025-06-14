@@ -1,0 +1,16 @@
+{E:/File ModelSim/SynchronousCounter4bit/SynchronousCounter4bit.v} {1 {vlog -work work -stats=none {E:/File ModelSim/SynchronousCounter4bit/SynchronousCounter4bit.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module T_FF
+-- Compiling module SynchronousCounter4bit
+
+Top level modules:
+	SynchronousCounter4bit
+
+} {} {}} {E:/File ModelSim/SynchronousCounter4bit/Nhat_testbench_ SynchronousCounter4bit.v} {1 {vlog -work work -stats=none {E:/File ModelSim/SynchronousCounter4bit/Nhat_testbench_ SynchronousCounter4bit.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Nhat_testbench_SynchronousCounter4bit
+
+Top level modules:
+	Nhat_testbench_SynchronousCounter4bit
+
+} {} {}}
