@@ -1,0 +1,98 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/18.1/modelsim_ase/win32aloem
+vNhat_testbench_SynchronousCounter8bit
+Z0 !s110 1746161952
+!i10b 1
+!s100 U7@aQN?HRo<g=]5XXee=V1
+Ikg]eHa>nLh8AU`oT>UBP31
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dE:/File ModelSim/Synchronous_Counter_T_FF
+w1746161795
+8E:/File ModelSim/Synchronous_Counter_T_FF/Nhat_testbench_ SynchronousCounter8bit.v
+FE:/File ModelSim/Synchronous_Counter_T_FF/Nhat_testbench_ SynchronousCounter8bit.v
+L0 2
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1746161952.000000
+!s107 E:/File ModelSim/Synchronous_Counter_T_FF/Nhat_testbench_ SynchronousCounter8bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/File ModelSim/Synchronous_Counter_T_FF/Nhat_testbench_ SynchronousCounter8bit.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+n@nhat_testbench_@synchronous@counter8bit
+vNhat_testbench_T_FF
+R0
+!i10b 1
+!s100 I=>?W96kG4hC2BWEXe@FA0
+Ij95Ye2D6bmGYlW1FgV<I=2
+R1
+R2
+w1746159252
+8E:/File ModelSim/Synchronous_Counter_T_FF/Nhat_testbench_Synchronous_Counter_T_FF.v
+FE:/File ModelSim/Synchronous_Counter_T_FF/Nhat_testbench_Synchronous_Counter_T_FF.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+!s107 E:/File ModelSim/Synchronous_Counter_T_FF/Nhat_testbench_Synchronous_Counter_T_FF.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/File ModelSim/Synchronous_Counter_T_FF/Nhat_testbench_Synchronous_Counter_T_FF.v|
+!i113 1
+R5
+R6
+n@nhat_testbench_@t_@f@f
+vSynchronousCounter8bit
+R0
+!i10b 1
+!s100 UFU=SF3EjW^6ZiHSNFdiQ3
+IE6@7>?GKII8n0G4gK4Sn42
+R1
+R2
+Z7 w1746161663
+Z8 8E:/File ModelSim/Synchronous_Counter_T_FF/Synchronous_Counter_T_FF.v
+Z9 FE:/File ModelSim/Synchronous_Counter_T_FF/Synchronous_Counter_T_FF.v
+L0 12
+R3
+r1
+!s85 0
+31
+R4
+Z10 !s107 E:/File ModelSim/Synchronous_Counter_T_FF/Synchronous_Counter_T_FF.v|
+Z11 !s90 -reportprogress|300|-work|work|-stats=none|E:/File ModelSim/Synchronous_Counter_T_FF/Synchronous_Counter_T_FF.v|
+!i113 1
+R5
+R6
+n@synchronous@counter8bit
+vT_FF
+R0
+!i10b 1
+!s100 @E5dXD:@ZeFA[1T4034LI3
+IdBPZm[]QcOD[A?]0OekEm0
+R1
+R2
+R7
+R8
+R9
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+R10
+R11
+!i113 1
+R5
+R6
+n@t_@f@f

@@ -1,0 +1,23 @@
+{E:/File ModelSim/Synchronous_Counter_T_FF/Nhat_testbench_ SynchronousCounter8bit.v} {1 {vlog -work work -stats=none {E:/File ModelSim/Synchronous_Counter_T_FF/Nhat_testbench_ SynchronousCounter8bit.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Nhat_testbench_SynchronousCounter8bit
+
+Top level modules:
+	Nhat_testbench_SynchronousCounter8bit
+
+} {} {}} {E:/File ModelSim/Synchronous_Counter_T_FF/Synchronous_Counter_T_FF.v} {1 {vlog -work work -stats=none {E:/File ModelSim/Synchronous_Counter_T_FF/Synchronous_Counter_T_FF.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module T_FF
+-- Compiling module SynchronousCounter8bit
+
+Top level modules:
+	SynchronousCounter8bit
+
+} {} {}} {E:/File ModelSim/Synchronous_Counter_T_FF/Nhat_testbench_Synchronous_Counter_T_FF.v} {1 {vlog -work work -stats=none {E:/File ModelSim/Synchronous_Counter_T_FF/Nhat_testbench_Synchronous_Counter_T_FF.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Nhat_testbench_T_FF
+
+Top level modules:
+	Nhat_testbench_T_FF
+
+} {} {}}
