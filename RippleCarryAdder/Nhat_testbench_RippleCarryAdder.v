@@ -1,0 +1,18 @@
+`timescale 1ns/1ps
+module Nhat_testbench_RippleCarryAdder();
+reg [3:0] A, B;
+reg Cin;
+wire [4:0] S;
+
+RippleCarryAdder uut(.A(A), .B(B), .Cin(Cin), .S(S));
+
+initial begin
+A = 4'b0000;
+B = 4'b0000;
+Cin = 1'b0;
+end
+
+always forever #10 A = A + 1;
+always forever #20 B = B + 1;
+
+endmodule

@@ -1,0 +1,98 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/18.1/modelsim_ase/win32aloem
+vFullAdder
+Z0 !s110 1746039889
+!i10b 1
+!s100 DHXSJfI0CS[Po_z];GRYG3
+Id^b=[1FI9f79VKM=ooL`B3
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dE:/File ModelSim/RippleCarryAdder
+Z3 w1746039794
+Z4 8E:/File ModelSim/RippleCarryAdder/RippleCarryAdder.v
+Z5 FE:/File ModelSim/RippleCarryAdder/RippleCarryAdder.v
+L0 1
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1746039889.000000
+Z8 !s107 E:/File ModelSim/RippleCarryAdder/RippleCarryAdder.v|
+Z9 !s90 -reportprogress|300|-work|work|-stats=none|E:/File ModelSim/RippleCarryAdder/RippleCarryAdder.v|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+n@full@adder
+vNhat_testbench_FullAdder
+R0
+!i10b 1
+!s100 k=COh@=Ah5^AE7FWVXNM61
+I37=I>jjhm?WZ5=?`S0mSj3
+R1
+R2
+w1746038728
+8E:/File ModelSim/RippleCarryAdder/Nhat_testbench_FullAdder.v
+FE:/File ModelSim/RippleCarryAdder/Nhat_testbench_FullAdder.v
+L0 2
+R6
+r1
+!s85 0
+31
+R7
+!s107 E:/File ModelSim/RippleCarryAdder/Nhat_testbench_FullAdder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/File ModelSim/RippleCarryAdder/Nhat_testbench_FullAdder.v|
+!i113 1
+R10
+R11
+n@nhat_testbench_@full@adder
+vNhat_testbench_RippleCarryAdder
+R0
+!i10b 1
+!s100 B8T^iIXV9NZYXcmSL?OEW0
+I45j<FEjF0Vca[4EfWU=Jz0
+R1
+R2
+w1742563680
+8E:/File ModelSim/RippleCarryAdder/Nhat_testbench_RippleCarryAdder.v
+FE:/File ModelSim/RippleCarryAdder/Nhat_testbench_RippleCarryAdder.v
+L0 2
+R6
+r1
+!s85 0
+31
+R7
+!s107 E:/File ModelSim/RippleCarryAdder/Nhat_testbench_RippleCarryAdder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/File ModelSim/RippleCarryAdder/Nhat_testbench_RippleCarryAdder.v|
+!i113 1
+R10
+R11
+n@nhat_testbench_@ripple@carry@adder
+vRippleCarryAdder
+R0
+!i10b 1
+!s100 9SY5ZNWm=86H@P:j<;hiZ3
+IIAK_VTnMidQ4F]I6R_nX<3
+R1
+R2
+R3
+R4
+R5
+L0 11
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@ripple@carry@adder
