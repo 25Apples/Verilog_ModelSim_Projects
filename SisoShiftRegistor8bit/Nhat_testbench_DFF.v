@@ -1,0 +1,16 @@
+`timescale 1ns/1ps
+module Nhat_testbench_DFF();
+reg D, CLK;
+wire Q;
+
+DFF uut (.D(D), .CLK(CLK), .Q(Q));
+
+initial begin
+	D = 0;
+	CLK = 0;
+end
+
+always forever #10 CLK = ~CLK;
+always forever #50 D = ~D;
+
+endmodule

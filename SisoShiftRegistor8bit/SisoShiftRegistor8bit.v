@@ -1,0 +1,24 @@
+module DFF(
+input wire D, CLK,
+output reg Q
+);
+always @(posedge CLK)
+Q <= D;
+endmodule
+
+module SISOShiftRegister8bit(
+input wire in, CLK,
+output wire Q0, Q1, Q2, Q3, Q4, Q5, Q6, Q7
+);
+
+DFF ff0(in, CLK, Q0);
+DFF ff1(Q0, CLK, Q1);
+DFF ff2(Q1, CLK, Q2);
+DFF ff3(Q2, CLK, Q3);
+DFF ff4(Q3, CLK, Q4);
+DFF ff5(Q4, CLK, Q5);
+DFF ff6(Q5, CLK, Q6);
+DFF ff7(Q6, CLK, Q7);
+
+endmodule
+

@@ -1,0 +1,157 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/18.1/modelsim_ase/win32aloem
+vDFF
+!i10b 1
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
+!s100 z^OcffEkFjU8hN>8Xg4RO1
+I@76e7I09]30f>E0Re7Qkh1
+Z1 dE:/File ModelSim/SisoShiftRegistor8bit
+Z2 w1746152850
+Z3 8E:/File ModelSim/SisoShiftRegistor8bit/SisoShiftRegistor8bit.v
+Z4 FE:/File ModelSim/SisoShiftRegistor8bit/SisoShiftRegistor8bit.v
+L0 1
+Z5 OV;L;10.5b;63
+Z6 !s108 1746154415.000000
+Z7 !s107 E:/File ModelSim/SisoShiftRegistor8bit/SisoShiftRegistor8bit.v|
+Z8 !s90 -reportprogress|300|-work|work|-stats=none|E:/File ModelSim/SisoShiftRegistor8bit/SisoShiftRegistor8bit.v|
+!i113 1
+Z9 o-work work
+Z10 tCvgOpt 0
+n@d@f@f
+vNhat_testbench_DFF
+!i10b 1
+R0
+r1
+!s85 0
+31
+!s100 BTm5[BhKEo][kH97i`8>O3
+I7JnkCL8TVHBXN9nM1aVMA2
+R1
+w1746121355
+8E:/File ModelSim/SisoShiftRegistor8bit/Nhat_testbench_DFF.v
+FE:/File ModelSim/SisoShiftRegistor8bit/Nhat_testbench_DFF.v
+L0 2
+R5
+R6
+!s107 E:/File ModelSim/SisoShiftRegistor8bit/Nhat_testbench_DFF.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/File ModelSim/SisoShiftRegistor8bit/Nhat_testbench_DFF.v|
+!i113 1
+R9
+R10
+n@nhat_testbench_@d@f@f
+vNhat_testbench_SisoShiftRegister8bit
+!i10b 1
+R0
+r1
+!s85 0
+31
+!s100 nkd=f3nUGHl0jEBQNO0>82
+InbdlP2E[W@R96P10MzgCz3
+R1
+w1746154408
+Z11 8E:/File ModelSim/SisoShiftRegistor8bit/Nhat_testbench_SisoShiftRegistor8bit.v
+Z12 FE:/File ModelSim/SisoShiftRegistor8bit/Nhat_testbench_SisoShiftRegistor8bit.v
+L0 2
+R5
+R6
+Z13 !s107 E:/File ModelSim/SisoShiftRegistor8bit/Nhat_testbench_SisoShiftRegistor8bit.v|
+Z14 !s90 -reportprogress|300|-work|work|-stats=none|E:/File ModelSim/SisoShiftRegistor8bit/Nhat_testbench_SisoShiftRegistor8bit.v|
+!i113 1
+R9
+R10
+n@nhat_testbench_@siso@shift@register8bit
+vNhat_testbench_SisoShiftRegistor8bit
+!i10b 1
+R0
+r1
+!s85 0
+31
+!s100 LZ8N@l4J[WWKjEBP;@]7:0
+IXfC^VCoIZ6;O8?HLf5Hgf1
+R1
+w1746152551
+R11
+R12
+L0 2
+R5
+!s108 1746152852.000000
+R13
+R14
+!i113 1
+R9
+R10
+n@nhat_testbench_@siso@shift@registor8bit
+vSISOShiftRegister8bit
+!i10b 1
+R0
+r1
+!s85 0
+31
+!s100 WIhZacm5fjFClIadh>@6U0
+IMz]nkJh]5IgG2]?^J:lih2
+R1
+R2
+R3
+R4
+L0 9
+R5
+R6
+R7
+R8
+!i113 1
+R9
+R10
+n@s@i@s@o@shift@register8bit
+vSisoShiftRegistor8bit
+!i10b 1
+R0
+r1
+!s85 0
+31
+!s100 ?E[SYT;:Q93Y7IFaz_d?l0
+IJd0HFlfjZz6Xnon7LG?_T0
+R1
+w1742629736
+R3
+R4
+L0 9
+R5
+!s108 1746121361.000000
+R7
+R8
+!i113 1
+R9
+R10
+n@siso@shift@registor8bit
+vSISOShiftRegistor8bit
+!i10b 1
+R0
+r1
+!s85 0
+31
+!s100 D;kd3XS`dX0hB0GfG@:QO2
+IS:A_JD;CODTEOO@WJc3zR0
+R1
+w1746149657
+R3
+R4
+L0 9
+R5
+!s108 1746149668.000000
+R7
+R8
+!i113 1
+R9
+R10
+n@s@i@s@o@shift@registor8bit
