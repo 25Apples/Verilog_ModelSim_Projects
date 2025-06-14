@@ -1,0 +1,54 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/18.1/modelsim_ase/win32aloem
+vDemux1to8
+Z0 !s110 1746042581
+!i10b 1
+!s100 CLSknP85C@A33XY0enZ@N1
+I8l5[81HU8Ml9f76PQL=]J3
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dE:/File ModelSim/Demux1to8
+w1746042435
+8E:/File ModelSim/Demux1to8/Demux1to8.v
+FE:/File ModelSim/Demux1to8/Demux1to8.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1746042581.000000
+!s107 E:/File ModelSim/Demux1to8/Demux1to8.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/File ModelSim/Demux1to8/Demux1to8.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+n@demux1to8
+vNhat_testbench_Demux1to8
+R0
+!i10b 1
+!s100 5e<Y9b[Df><@O]=MPhRL22
+I0fVZB@XG^ClLPTQ>Zk_FR0
+R1
+R2
+w1746042575
+8E:/File ModelSim/Demux1to8/Nhat_testbench_Demux1to8.v
+FE:/File ModelSim/Demux1to8/Nhat_testbench_Demux1to8.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+!s107 E:/File ModelSim/Demux1to8/Nhat_testbench_Demux1to8.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/File ModelSim/Demux1to8/Nhat_testbench_Demux1to8.v|
+!i113 1
+R5
+R6
+n@nhat_testbench_@demux1to8
