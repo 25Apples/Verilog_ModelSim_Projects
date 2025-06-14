@@ -1,0 +1,15 @@
+{E:/File ModelSim/SynchronousCounter8bit_2/SynchronousCounter8bit_2.v} {1 {vlog -work work -stats=none {E:/File ModelSim/SynchronousCounter8bit_2/SynchronousCounter8bit_2.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module SynchronousCounter8bit_2
+
+Top level modules:
+	SynchronousCounter8bit_2
+
+} {} {}} {E:/File ModelSim/SynchronousCounter8bit_2/LeQuangMinhNhat_testbench_SynchronousCounter8bit_2.v} {1 {vlog -work work -stats=none {E:/File ModelSim/SynchronousCounter8bit_2/LeQuangMinhNhat_testbench_SynchronousCounter8bit_2.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module LeQuangMinhNhat_testbench_SynchronousCounter8bit_2
+
+Top level modules:
+	LeQuangMinhNhat_testbench_SynchronousCounter8bit_2
+
+} {} {}}

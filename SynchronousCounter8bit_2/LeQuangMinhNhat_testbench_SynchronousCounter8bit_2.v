@@ -1,0 +1,21 @@
+`timescale 1ns/1ps
+module LeQuangMinhNhat_testbench_SynchronousCounter8bit_2();
+
+reg clk, reset;
+wire [7:0] q;
+
+SynchronousCounter8bit_2 uut(
+.clk(clk), .reset(reset),
+.q(q)
+);
+
+initial begin
+	clk = 0;
+	reset = 0;
+end
+
+always forever #5 clk = ~clk;	
+always forever #250 reset = ~reset;
+
+endmodule 
+
