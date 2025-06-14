@@ -1,0 +1,54 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/18.1/modelsim_ase/win32aloem
+vLeQuangMinhNhat_testbench_Phat_hien_chuoi_1111
+Z0 !s110 1744442404
+!i10b 1
+!s100 zzB0:=c17]ZW_fmV08F@90
+IF9M4@EB`<282ZGOT^C<SX1
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dE:/File ModelSim/BaiTapNgay12_04_25
+w1744441003
+8E:/File ModelSim/BaiTapNgay12_04_25/LeQuangMinhNhat_testbench_Phathienchuoi1111.v
+FE:/File ModelSim/BaiTapNgay12_04_25/LeQuangMinhNhat_testbench_Phathienchuoi1111.v
+L0 3
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1744442404.000000
+!s107 E:/File ModelSim/BaiTapNgay12_04_25/LeQuangMinhNhat_testbench_Phathienchuoi1111.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/File ModelSim/BaiTapNgay12_04_25/LeQuangMinhNhat_testbench_Phathienchuoi1111.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+n@le@quang@minh@nhat_testbench_@phat_hien_chuoi_1111
+vPhat_hien_chuoi_1111
+R0
+!i10b 1
+!s100 2dQ7YJ`<n5^:DWY=0Q:G^3
+Ie;BahBB361Q^<iUgoChB<0
+R1
+R2
+w1744439841
+8E:/File ModelSim/BaiTapNgay12_04_25/PhatHienChuoi1111.v
+FE:/File ModelSim/BaiTapNgay12_04_25/PhatHienChuoi1111.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 E:/File ModelSim/BaiTapNgay12_04_25/PhatHienChuoi1111.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/File ModelSim/BaiTapNgay12_04_25/PhatHienChuoi1111.v|
+!i113 1
+R5
+R6
+n@phat_hien_chuoi_1111
