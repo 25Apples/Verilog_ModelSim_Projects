@@ -1,0 +1,31 @@
+module Phat_Hien_1111(
+input wire rs, clk, w,
+output reg y
+);
+
+parameter S0 = 0, S1 = 1, S2 = 2, S3 = 3, S4 = 4;
+reg [2:0] Current_State, Next_State;
+
+always @(posedge clk)
+	if (rs)
+		Current_State <= S0;
+	else
+		Current_State <= Next_State;
+
+always @(Current_State)
+	case(Current_State)
+	S0: Next_State = (w==0) ? S0 : S1;
+	S1: Next_State = (w==0) ? S0 : S2;
+	S2: Next_State = (w==0) ? S0 : S3;
+	S3: Next_State = (w==0) ? S0 : S4;
+	S4: Next_State = (w==0) ? S0 : S4;
+	default: Next_State = S0;
+endcase
+
+always @(Current_State)
+	case(Current_State)
+	S4: y = 1;
+	default: y = 0;
+endcase
+
+endmodule

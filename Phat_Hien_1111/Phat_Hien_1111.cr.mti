@@ -1,0 +1,15 @@
+{E:/File ModelSim/Phat_Hien_1111/Phat_Hien_1111.v} {1 {vlog -work work -stats=none {E:\File ModelSim\Phat_Hien_1111\Phat_Hien_1111.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Phat_Hien_1111
+
+Top level modules:
+	Phat_Hien_1111
+
+} {} {}} {E:/File ModelSim/Phat_Hien_1111/Nhat_testbench_Phat_Hien_1111.v} {1 {vlog -work work -stats=none {E:\File ModelSim\Phat_Hien_1111\Nhat_testbench_Phat_Hien_1111.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Nhat_testbench_Phat_Hien_1111
+
+Top level modules:
+	Nhat_testbench_Phat_Hien_1111
+
+} {} {}}

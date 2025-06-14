@@ -1,0 +1,39 @@
+`timescale 1ns/1ns
+module Nhat_testbench_Phat_Hien_1111();
+reg rs, clk, w;
+wire y;
+reg [3:0] shift_reg;
+
+Phat_Hien_1111 uut (.rs(rs), .clk(clk), .w(w), .y(y));
+
+always @(posedge clk)
+        if (rs)
+            shift_reg <= 4'b0000;
+        else
+            shift_reg <= {shift_reg[2:0], w};
+
+initial begin
+	rs = 1;
+	clk = 0;
+	w = 0;
+	#10 rs = 0;
+	//Gui chuoi 1111, y = 1
+	#10 w = 1;
+	#10 w = 1;
+	#10 w = 1;
+	#10 w = 1;
+	//Phat hien sai, y = 0
+	#10 w = 0;
+	//Gui chuoi 1111, y = 1
+	#10 w = 1;
+	#10 w = 1;
+	#10 w = 1;
+	#10 w = 1;
+	//Phat hien sai, y = 0
+	#10 w = 0;
+end
+
+always forever #5 clk = ~clk;
+
+
+endmodule

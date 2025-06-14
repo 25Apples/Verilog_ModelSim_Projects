@@ -1,0 +1,54 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/18.1/modelsim_ase/win32aloem
+vNhat_testbench_Phat_Hien_1111
+Z0 !s110 1746778616
+!i10b 1
+!s100 1=CT2ih5dhVTI2no4fniX3
+ID^U]^US0=PCeCRRkGXHcV0
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dE:/File ModelSim/Phat_Hien_1111
+w1746778610
+8E:\File ModelSim\Phat_Hien_1111\Nhat_testbench_Phat_Hien_1111.v
+FE:\File ModelSim\Phat_Hien_1111\Nhat_testbench_Phat_Hien_1111.v
+L0 2
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1746778616.000000
+!s107 E:\File ModelSim\Phat_Hien_1111\Nhat_testbench_Phat_Hien_1111.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:\File ModelSim\Phat_Hien_1111\Nhat_testbench_Phat_Hien_1111.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+n@nhat_testbench_@phat_@hien_1111
+vPhat_Hien_1111
+R0
+!i10b 1
+!s100 Om`Ol`Vh8W`Q:56Fj_eYQ0
+IB8><UZXb_56KVjoGAbN6G0
+R1
+R2
+w1746778086
+8E:\File ModelSim\Phat_Hien_1111\Phat_Hien_1111.v
+FE:\File ModelSim\Phat_Hien_1111\Phat_Hien_1111.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 E:\File ModelSim\Phat_Hien_1111\Phat_Hien_1111.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:\File ModelSim\Phat_Hien_1111\Phat_Hien_1111.v|
+!i113 1
+R5
+R6
+n@phat_@hien_1111
