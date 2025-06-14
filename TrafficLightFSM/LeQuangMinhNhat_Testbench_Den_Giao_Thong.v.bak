@@ -1,0 +1,37 @@
+`timescale 1ns/1ps
+
+module LeQuangMinhNhat_testbench_Den_Giao_Thong();
+reg clk, reset;
+wire A_green, A_yellow, A_red, B_green, B_yellow, B_red;
+
+// Instantiation of the DUT
+two_way_traffic_light_controller uut(
+    .clk(clk), .reset(reset),
+    .A_green(A_green), .A_yellow(A_yellow), .A_red(A_red), 
+    .B_green(B_green), .B_yellow(B_yellow), .B_red(B_red)
+);
+
+// T?o clock 10ns chu k? (5ns lên, 5ns xu?ng)
+always #5 clk = ~clk;
+
+// Reset ban ??u
+initial begin
+    clk = 0;
+    reset = 1;
+    #10;
+    reset = 0;
+end
+
+// In ra tr?ng thái ?èn sau m?i thay ??i
+initial begin
+    $monitor("Time=%0t | A: G=%b Y=%b R=%b | B: G=%b Y=%b R=%b", $time, A_green, A_yellow, A_red, B_green, B_yellow, B_red);
+end
+
+// K?t thúc mô ph?ng sau 2000ns
+initial begin
+    #2000;
+    $finish;
+end
+
+endmodule
+

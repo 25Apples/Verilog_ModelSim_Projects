@@ -1,0 +1,205 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/18.1/modelsim_ase/win32aloem
+vCountdown_Display
+Z0 !s110 1745648204
+!i10b 1
+!s100 W5285GCaJXalz38CFAOCD3
+ImS;fc420A?b=;:U;@?MCP0
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dE:/File ModelSim/TrafficLightFSM
+Z3 w1745046867
+Z4 8E:/File ModelSim/TrafficLightFSM/Dieu_Khien_2_Den.v
+Z5 FE:/File ModelSim/TrafficLightFSM/Dieu_Khien_2_Den.v
+L0 101
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1745648204.000000
+Z8 !s107 E:/File ModelSim/TrafficLightFSM/Dieu_Khien_2_Den.v|
+Z9 !s90 -reportprogress|300|-work|work|-stats=none|E:/File ModelSim/TrafficLightFSM/Dieu_Khien_2_Den.v|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+n@countdown_@display
+vLeQuangMinhNhat_testbench_Den_Giao_Thong
+R0
+!i10b 1
+!s100 3Y;a`CIE`GQa]BjCelEkE2
+I71ibZ<]UR746=hOXiI:@e0
+R1
+R2
+w1745043921
+8E:/File ModelSim/TrafficLightFSM/LeQuangMinhNhat_Testbench_Den_Giao_Thong.v
+FE:/File ModelSim/TrafficLightFSM/LeQuangMinhNhat_Testbench_Den_Giao_Thong.v
+L0 3
+R6
+r1
+!s85 0
+31
+R7
+!s107 E:/File ModelSim/TrafficLightFSM/LeQuangMinhNhat_Testbench_Den_Giao_Thong.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/File ModelSim/TrafficLightFSM/LeQuangMinhNhat_Testbench_Den_Giao_Thong.v|
+!i113 1
+R10
+R11
+n@le@quang@minh@nhat_testbench_@den_@giao_@thong
+vSeven_Segment_Display
+R0
+!i10b 1
+!s100 4WT4DhFTIVzj;a13>GUFc3
+IkNbJGO^3?6e[P0D::UfTg3
+R1
+R2
+R3
+R4
+R5
+L0 80
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@seven_@segment_@display
+vtraffic_light
+!s110 1744431129
+!i10b 1
+!s100 n?LaY>02@S3jMOoA0^UOz0
+IazUkQX9a1aF<Yj7;E@hcJ3
+R1
+R2
+w1744431128
+Z12 8E:/File ModelSim/TrafficLightFSM/TrafficLightFSM.v
+Z13 FE:/File ModelSim/TrafficLightFSM/TrafficLightFSM.v
+L0 1
+R6
+r1
+!s85 0
+31
+!s108 1744431129.000000
+Z14 !s107 E:/File ModelSim/TrafficLightFSM/TrafficLightFSM.v|
+Z15 !s90 -reportprogress|300|-work|work|-stats=none|E:/File ModelSim/TrafficLightFSM/TrafficLightFSM.v|
+!i113 1
+R10
+R11
+vtraffic_light_controller
+R0
+!i10b 1
+!s100 bE3n[:9IG?JC7^5:mnF`l3
+I0omDg8:bjWlNnAHOP5dFf1
+R1
+R2
+w1745031108
+R12
+R13
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+R14
+R15
+!i113 1
+R10
+R11
+vTraffic_Light_Controller
+!s110 1745046694
+!i10b 1
+!s100 g[07`^A3H;Y`M^<:2eIDJ0
+I?;MbPan>WI:9:AFcm=d0U3
+R1
+R2
+w1745046692
+R4
+R5
+L0 1
+R6
+r1
+!s85 0
+31
+!s108 1745046694.000000
+R8
+R9
+!i113 1
+R10
+R11
+n@traffic_@light_@controller
+vTraffic_System
+R0
+!i10b 1
+!s100 P_@:<?bBC95DFN3HeZk]_0
+I6>HKPJGO79[[]Y3o;?YND2
+R1
+R2
+R3
+R4
+R5
+L0 125
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@traffic_@system
+vTrafficLightFSM
+!s110 1744430890
+!i10b 1
+!s100 g>^]lPRaXO]^TN_82_Ia90
+IE<kZ^1:eV?KfGcU7TDKGB1
+R1
+R2
+w1743224769
+R12
+R13
+L0 1
+R6
+r1
+!s85 0
+31
+!s108 1744430890.000000
+R14
+R15
+!i113 1
+R10
+R11
+n@traffic@light@f@s@m
+vtwo_way_traffic_light_controller
+!s110 1745043927
+!i10b 1
+!s100 F916>lf:mBiUDbW>_mL3>3
+I]mMV[cOJOeH8UQbP_F]O30
+R1
+R2
+w1745043040
+R4
+R5
+L0 1
+R6
+r1
+!s85 0
+31
+!s108 1745043927.000000
+R8
+R9
+!i113 1
+R10
+R11

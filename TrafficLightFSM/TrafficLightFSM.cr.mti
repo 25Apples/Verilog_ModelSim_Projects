@@ -1,0 +1,23 @@
+{E:/File ModelSim/TrafficLightFSM/TrafficLightFSM.v} {1 {vlog -work work -stats=none {E:/File ModelSim/TrafficLightFSM/TrafficLightFSM.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module traffic_light_controller
+
+Top level modules:
+	traffic_light_controller
+
+} {} {}} {E:/File ModelSim/TrafficLightFSM/LeQuangMinhNhat_Testbench_Den_Giao_Thong.v} {1 {vlog -work work -stats=none {E:/File ModelSim/TrafficLightFSM/LeQuangMinhNhat_Testbench_Den_Giao_Thong.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module LeQuangMinhNhat_testbench_Den_Giao_Thong
+
+Top level modules:
+	LeQuangMinhNhat_testbench_Den_Giao_Thong
+
+} {} {}} {E:/File ModelSim/TrafficLightFSM/Dieu_Khien_2_Den.v} {0 {vlog -work work -stats=none {E:/File ModelSim/TrafficLightFSM/Dieu_Khien_2_Den.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Traffic_Light_Controller
+** Error (suppressible): E:/File ModelSim/TrafficLightFSM/Dieu_Khien_2_Den.v(12): (vlog-2388) 'next_state' already declared in this scope (Traffic_Light_Controller).
+-- Compiling module Seven_Segment_Display
+-- Compiling module Countdown_Display
+-- Compiling module Traffic_System
+
+} {} {}}

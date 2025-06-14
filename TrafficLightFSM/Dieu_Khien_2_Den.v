@@ -1,0 +1,155 @@
+module Traffic_Light_Controller(
+    input wire clk, reset,
+    output reg A_green, A_yellow, A_red, B_green, B_yellow, B_red,
+    output reg [1:0] current_state, next_state,
+    output reg [7:0] timer
+);
+    parameter A_GREEN  = 2'b00;
+    parameter A_YELLOW = 2'b01;
+    parameter B_GREEN  = 2'b10;
+    parameter B_YELLOW = 2'b11;
+    
+    reg [1:0] next_state;
+    parameter A_GREEN_TIME  = 15;
+    parameter A_YELLOW_TIME = 5;
+    parameter B_GREEN_TIME  = 15;
+    parameter B_YELLOW_TIME = 5;
+    
+    always @(*) begin
+        next_state = current_state;
+        case (current_state)
+            A_GREEN:  if (timer == 0)  next_state = A_YELLOW;
+            A_YELLOW: if (timer == 0)  next_state = B_GREEN;
+            B_GREEN:  if (timer == 0)  next_state = B_YELLOW;
+            B_YELLOW: if (timer == 0)  next_state = A_GREEN;
+            default: next_state = A_GREEN;
+        endcase
+    end
+    
+    always @(posedge clk) begin
+        if (reset) begin
+            current_state <= A_GREEzN;
+            timer <= A_GREEN_TIME;  
+        end 
+        else begin
+            if (timer == 0) begin
+                case (next_state)
+                    A_GREEN:  timer <= A_GREEN_TIME;
+                    A_YELLOW: timer <= A_YELLOW_TIME;
+                    B_GREEN:  timer <= B_GREEN_TIME;
+                    B_YELLOW: timer <= B_YELLOW_TIME;
+                    default:  timer <= A_GREEN_TIME;
+                endcase
+            end
+            else begin
+                timer <= timer - 1;  
+            end
+            current_state <= next_state;
+        end
+    end
+    
+    always @(*) begin
+        A_green = 0; A_yellow = 0; A_red = 0;
+        B_green = 0; B_yellow = 0; B_red = 0;
+        
+        case (current_state)
+            A_GREEN: begin
+                A_green = 1;
+                A_red = 0;
+                B_red = 1;
+            end
+            A_YELLOW: begin
+                A_yellow = 1;
+                A_red = 0;
+                B_red = 1;
+            end
+            B_GREEN: begin
+                B_green = 1;
+                B_red = 0;
+                A_red = 1;
+            end
+            B_YELLOW: begin
+                B_yellow = 1;
+                B_red = 0;
+                A_red = 1;
+            end
+        endcase
+    end
+endmodule
+
+module Seven_Segment_Display(
+    input wire [3:0] digit,
+    output reg [7:0] segments
+);
+    always @(*) begin
+        case (digit)
+            4'd0: segments = 8'h3f; // 0: 0x3f
+            4'd1: segments = 8'h06; // 1: 0x06
+            4'd2: segments = 8'h5b; // 2: 0x5b
+            4'd3: segments = 8'h4f; // 3: 0x4f
+            4'd4: segments = 8'h66; // 4: 0x66
+            4'd5: segments = 8'h6d; // 5: 0x6d
+            4'd6: segments = 8'h7d; // 6: 0x7d
+            4'd7: segments = 8'h07; // 7: 0x07
+            4'd8: segments = 8'h7f; // 8: 0x7f
+            4'd9: segments = 8'h6f; // 9: 0x6f
+            default: segments = 8'h00; // Blank
+        endcase
+    end
+endmodule
+
+module Countdown_Display(
+    input wire clk, reset,
+    input wire [7:0] timer,
+    output wire [7:0] seg_tens, seg_ones
+);
+    wire [3:0] tens_digit;
+    wire [3:0] ones_digit;
+    
+   
+    assign tens_digit = timer / 10;
+    assign ones_digit = timer % 10;
+    
+  
+    Seven_Segment_Display tens_display(
+        .digit(tens_digit),
+        .segments(seg_tens)
+    );
+    
+    Seven_Segment_Display ones_display(
+        .digit(ones_digit),
+        .segments(seg_ones)
+    );
+endmodule
+
+module Traffic_System(
+    input wire clk, reset,
+   
+    output wire A_green, A_yellow, A_red, B_green, B_yellow, B_red,
+    // Seven-segment displays for countdown timer
+    output wire [7:0] seg_tens, seg_ones
+);
+    wire [1:0] current_state;
+    wire [7:0] timer;
+    
+    Traffic_Light_Controller traffic_ctrl(
+        .clk(clk),
+        .reset(reset),
+        .A_green(A_green),
+        .A_yellow(A_yellow),
+        .A_red(A_red),
+        .B_green(B_green),
+        .B_yellow(B_yellow),
+        .B_red(B_red),
+        .current_state(current_state),
+        .timer(timer)
+    );
+    
+    Countdown_Display display(
+        .clk(clk),
+        .reset(reset),
+        .timer(timer),
+        .seg_tens(seg_tens),
+        .seg_ones(seg_ones)
+    );
+endmodule
