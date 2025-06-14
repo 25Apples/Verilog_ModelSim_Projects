@@ -1,0 +1,58 @@
+`timescale 1s/1ms
+
+module Nhat_testbench_System_Door();
+
+reg clk = 0;
+reg rs;
+reg [4:1] btn;
+wire Led_Green, Led_Red;
+
+System_Door uut (.clk(clk), .rs(rs), .btn(btn), .Led_Green(Led_Green), .Led_Red(Led_Red));
+
+always #5 clk = ~clk; // 10ns mot chu ky
+
+initial begin
+// Reset he thong
+rs = 1; btn = 4'b0000;
+#20; rs = 0;
+
+// Test 1: Nhap dung mat khau (1-3-2-4)
+#10 btn = 4'b0001;
+#10 btn = 4'b0100;
+#10 btn = 4'b0010;
+#10 btn = 4'b1000;
+#10 btn = 4'b0000; 
+
+
+// Reset lai
+#100 rs = 1; 
+#20 rs = 0;
+
+// Test 2: Nhap sai mat khau (1-2-3-4)
+#10 btn = 4'b0001;
+#10 btn = 4'b0010;
+#10 btn = 4'b0100;
+#10 btn = 4'b1000;
+#10 btn = 4'b0000;
+
+// Reset lai
+#100 rs = 1; 
+#20 rs = 0;
+
+// Test 3: Nhan 1 nut va khong nhan nut nao nua
+#10 btn = 4'b0001;
+#10 btn = 4'b1000;
+#10 btn = 4'b1000;
+#10 btn = 4'b0000;
+
+// Reset lai
+#100 rs = 1; 
+#20 rs = 0;
+
+// Test 4: Khong nhan nut nao trong 10 chu ky
+#120;
+end
+
+endmodule
+
+

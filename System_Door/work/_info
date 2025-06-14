@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/18.1/modelsim_ase/win32aloem
+vNhat_testbench_System_Door
+!i10b 1
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
+!s100 eC9>YNG_XdRDe6Kz_?6GZ1
+I3[C?fG::WRFlNcDK;7K:?3
+Z1 dE:/File ModelSim/System_Door
+w1746846819
+8E:/File ModelSim/System_Door/Nhat_testbench_System_Door.v
+FE:/File ModelSim/System_Door/Nhat_testbench_System_Door.v
+L0 3
+Z2 OV;L;10.5b;63
+!s108 1746846939.000000
+!s107 E:/File ModelSim/System_Door/Nhat_testbench_System_Door.v|
+!s90 -reportprogress|300|-work|work|E:/File ModelSim/System_Door/Nhat_testbench_System_Door.v|
+!i113 1
+Z3 o-work work
+Z4 tCvgOpt 0
+n@nhat_testbench_@system_@door
+vSystem_Door
+!i10b 1
+R0
+r1
+!s85 0
+31
+!s100 jS]h^iJ6=HGL`03MKo`mZ1
+IJ?5[>SI0CRT8<=gEUbGK71
+R1
+w1746846384
+8E:/File ModelSim/System_Door/System_Door.v
+FE:/File ModelSim/System_Door/System_Door.v
+L0 1
+R2
+!s108 1746846828.000000
+!s107 E:/File ModelSim/System_Door/System_Door.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/File ModelSim/System_Door/System_Door.v|
+!i113 1
+R3
+R4
+n@system_@door

@@ -1,0 +1,8 @@
+{E:/File ModelSim/System_Door/Nhat_testbench_System_Door.v} {1 {vlog -work work -stats=none {E:/File ModelSim/System_Door/Nhat_testbench_System_Door.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Nhat_testbench_System_Door
+
+Top level modules:
+	Nhat_testbench_System_Door
+
+} {} {}}
