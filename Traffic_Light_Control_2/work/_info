@@ -1,0 +1,54 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/18.1/modelsim_ase/win32aloem
+vNhat_testbench_Traffic_Light_Control
+Z0 !s110 1746831201
+!i10b 1
+!s100 CAaF;ZX=@n>QcEbcdTD:c1
+IoRan_7MaFV;]<H1]AVZ;H2
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dE:/File ModelSim/Traffic_Light_Control_2
+w1746792686
+8E:/File ModelSim/Traffic_Light_Control_2/Nhat_testbench_Traffic_Light_Control_2.v
+FE:/File ModelSim/Traffic_Light_Control_2/Nhat_testbench_Traffic_Light_Control_2.v
+L0 2
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1746831201.000000
+!s107 E:/File ModelSim/Traffic_Light_Control_2/Nhat_testbench_Traffic_Light_Control_2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/File ModelSim/Traffic_Light_Control_2/Nhat_testbench_Traffic_Light_Control_2.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+n@nhat_testbench_@traffic_@light_@control
+vTraffic_Light_Control_2
+R0
+!i10b 1
+!s100 4J_R[_mWQ7kF=Qal1QXQI3
+I2SMLO:8VH4HLZb0UjnUjl3
+R1
+R2
+w1746831188
+8E:/File ModelSim/Traffic_Light_Control_2/Traffic_Light_Control_2.v
+FE:/File ModelSim/Traffic_Light_Control_2/Traffic_Light_Control_2.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 E:/File ModelSim/Traffic_Light_Control_2/Traffic_Light_Control_2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/File ModelSim/Traffic_Light_Control_2/Traffic_Light_Control_2.v|
+!i113 1
+R5
+R6
+n@traffic_@light_@control_2

@@ -1,0 +1,31 @@
+`timescale 1s/1ms
+module Nhat_testbench_Traffic_Light_Control();
+reg rs, clk;
+wire [2:0] out_1, out_2;
+
+reg RED_1, GREEN_1, YELLOW_1;
+reg RED_2, GREEN_2, YELLOW_2;
+
+
+Traffic_Light_Control_2 uut(.rs(rs), .clk(clk), .out_1(out_1), .out_2(out_2));
+
+always @(*) begin
+	//Den_1
+	RED_1 = out_1[2];
+	GREEN_1 = out_1[1];
+	YELLOW_1 = out_1[0];
+	//Den_2
+	RED_2 = out_2[2];
+	GREEN_2 = out_2[1];
+	YELLOW_2 = out_2[0];
+end
+
+initial begin
+	clk = 0;
+	rs = 1;
+	#1 rs =0;
+end
+
+always forever #0.5 clk = ~clk;
+
+endmodule
