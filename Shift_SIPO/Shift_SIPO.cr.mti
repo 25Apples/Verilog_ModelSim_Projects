@@ -1,0 +1,8 @@
+{E:/File ModelSim/Shift_SIPO/Shift_SIPO.v} {1 {vlog -work work -stats=none {E:/File ModelSim/Shift_SIPO/Shift_SIPO.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Shift_SIPO
+
+Top level modules:
+	Shift_SIPO
+
+} {} {}}

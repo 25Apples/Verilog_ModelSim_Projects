@@ -1,0 +1,54 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/18.1/modelsim_ase/win32aloem
+vLeQuangMinhNhat_testbench_Shift_SIPO
+!s110 1746178940
+!i10b 1
+!s100 ]9WEYi_^YeRoRzeS><1O31
+I5Ta:fiD8k]nC0dOW`ohec3
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+Z1 dE:/File ModelSim/Shift_SIPO
+w1746178931
+8E:/File ModelSim/Shift_SIPO/LeQuangMinhNhat_testbench_Shift_SIPO.v
+FE:/File ModelSim/Shift_SIPO/LeQuangMinhNhat_testbench_Shift_SIPO.v
+L0 2
+Z2 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1746178940.000000
+!s107 E:/File ModelSim/Shift_SIPO/LeQuangMinhNhat_testbench_Shift_SIPO.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/File ModelSim/Shift_SIPO/LeQuangMinhNhat_testbench_Shift_SIPO.v|
+!i113 1
+Z3 o-work work
+Z4 tCvgOpt 0
+n@le@quang@minh@nhat_testbench_@shift_@s@i@p@o
+vShift_SIPO
+!s110 1746178939
+!i10b 1
+!s100 nGFGZBUgHKMZ4d@]PzdYN0
+IX>DSS>[l>7D<4=X6`Ee:E0
+R0
+R1
+w1746178781
+8E:/File ModelSim/Shift_SIPO/Shift_SIPO.v
+FE:/File ModelSim/Shift_SIPO/Shift_SIPO.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1746178939.000000
+!s107 E:/File ModelSim/Shift_SIPO/Shift_SIPO.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/File ModelSim/Shift_SIPO/Shift_SIPO.v|
+!i113 1
+R3
+R4
+n@shift_@s@i@p@o

@@ -1,0 +1,20 @@
+`timescale 1ns/1ps
+module LeQuangMinhNhat_testbench_Shift_SIPO();
+
+reg clk, s_in;
+wire [7:0] q_out;
+
+Shift_SIPO uut(
+.clk(clk), .s_in(s_in),
+.q_out(q_out)
+);
+
+initial begin
+	s_in = 1;
+	clk = 0;
+end
+
+always forever #5 clk = ~clk;
+
+endmodule
+
